@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPT.Test.JBP.Backend.API", "BPT.Test.JBP.Backend.API\BPT.Test.JBP.Backend.API.csproj", "{035A85DE-49D5-4297-967A-5DE39AE3B1D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTP.Test.JBP.FrontEnd.Client", "BTP.Test.JBP.FrontEnd.Client\BTP.Test.JBP.FrontEnd.Client.csproj", "{02E818FE-7033-49E5-8E1F-B41C6B568CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.Business", "BTP.Test.JBP.BackEnd.Business\BTP.Test.JBP.BackEnd.Business.csproj", "{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.DataAccess", "BTP.Test.JBP.BackEnd.DataAccess\BTP.Test.JBP.BackEnd.DataAccess.csproj", "{8791A948-D266-483E-8835-7028FCD4E506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.Entities", "BTP.Test.JBP.BackEnd.Entities\BTP.Test.JBP.BackEnd.Entities.csproj", "{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035A85DE-49D5-4297-967A-5DE39AE3B1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035A85DE-49D5-4297-967A-5DE39AE3B1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035A85DE-49D5-4297-967A-5DE39AE3B1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035A85DE-49D5-4297-967A-5DE39AE3B1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E818FE-7033-49E5-8E1F-B41C6B568CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E818FE-7033-49E5-8E1F-B41C6B568CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E818FE-7033-49E5-8E1F-B41C6B568CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E818FE-7033-49E5-8E1F-B41C6B568CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8791A948-D266-483E-8835-7028FCD4E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8791A948-D266-483E-8835-7028FCD4E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8791A948-D266-483E-8835-7028FCD4E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8791A948-D266-483E-8835-7028FCD4E506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
