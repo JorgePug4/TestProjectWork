@@ -1,0 +1,15 @@
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.deps.json
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.runtimeconfig.json
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.runtimeconfig.dev.json
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.dll
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.pdb
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.dll
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.pdb
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.csprojAssemblyReference.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.AssemblyInfoInputs.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.AssemblyInfo.cs
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.csproj.CoreCompileInputs.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.csproj.CopyComplete
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.dll
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.pdb
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.DataAccess\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.DataAccess.genruntimeconfig.cache

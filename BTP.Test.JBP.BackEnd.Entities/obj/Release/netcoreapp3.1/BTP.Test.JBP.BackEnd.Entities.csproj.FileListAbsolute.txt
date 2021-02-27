@@ -1,0 +1,9 @@
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.deps.json
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.dll
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\bin\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.pdb
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.csprojAssemblyReference.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.AssemblyInfoInputs.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.AssemblyInfo.cs
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.csproj.CoreCompileInputs.cache
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.dll
+C:\projects\Net\TestProjectWork\BTP.Test.JBP.BackEnd.Entities\obj\Release\netcoreapp3.1\BTP.Test.JBP.BackEnd.Entities.pdb

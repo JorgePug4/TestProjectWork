@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.FrontEnd.Client\\BTP.Test.JBP.FrontEnd.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\BTP.Test.JBP.BackEnd.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\BTP.Test.JBP.BackEnd.Entities.csproj",
+        "projectName": "BTP.Test.JBP.BackEnd.Entities",
+        "projectPath": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\BTP.Test.JBP.BackEnd.Entities.csproj",
+        "packagesPath": "C:\\Users\\jorge.DESKTOP-FLO6Q29\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jorge.DESKTOP-FLO6Q29\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.FrontEnd.Client\\BTP.Test.JBP.FrontEnd.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.FrontEnd.Client\\BTP.Test.JBP.FrontEnd.Client.csproj",
+        "projectName": "BTP.Test.JBP.FrontEnd.Client",
+        "projectPath": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.FrontEnd.Client\\BTP.Test.JBP.FrontEnd.Client.csproj",
+        "packagesPath": "C:\\Users\\jorge.DESKTOP-FLO6Q29\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.FrontEnd.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jorge.DESKTOP-FLO6Q29\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\BTP.Test.JBP.BackEnd.Entities.csproj": {
+                "projectPath": "C:\\projects\\Net\\TestProjectWork\\BTP.Test.JBP.BackEnd.Entities\\BTP.Test.JBP.BackEnd.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
