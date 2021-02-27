@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BTP.Test.JBP.BackEnd.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210227054053_FirstMigration")]
+    [Migration("20210227091016_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPT.Test.JBP.Backend.API", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTP.Test.JBP.FrontEnd.Client", "BTP.Test.JBP.FrontEnd.Client\BTP.Test.JBP.FrontEnd.Client.csproj", "{02E818FE-7033-49E5-8E1F-B41C6B568CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.Business", "BTP.Test.JBP.BackEnd.Business\BTP.Test.JBP.BackEnd.Business.csproj", "{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTP.Test.JBP.BackEnd.Business", "BTP.Test.JBP.BackEnd.Business\BTP.Test.JBP.BackEnd.Business.csproj", "{0403E4F7-4EB5-4B8C-82FA-CAD1143853A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.DataAccess", "BTP.Test.JBP.BackEnd.DataAccess\BTP.Test.JBP.BackEnd.DataAccess.csproj", "{8791A948-D266-483E-8835-7028FCD4E506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTP.Test.JBP.BackEnd.DataAccess", "BTP.Test.JBP.BackEnd.DataAccess\BTP.Test.JBP.BackEnd.DataAccess.csproj", "{8791A948-D266-483E-8835-7028FCD4E506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTP.Test.JBP.BackEnd.Entities", "BTP.Test.JBP.BackEnd.Entities\BTP.Test.JBP.BackEnd.Entities.csproj", "{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTP.Test.JBP.BackEnd.Entities", "BTP.Test.JBP.BackEnd.Entities\BTP.Test.JBP.BackEnd.Entities.csproj", "{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.JBP.API.JWT", "BPT.Test.JBP.API.JWT\BPT.Test.JBP.API.JWT.csproj", "{2CDB8CF1-CA4A-46D5-B635-901794A1CF67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E01EBAB-8C9B-4065-8D86-1653F8FC34EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDB8CF1-CA4A-46D5-B635-901794A1CF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDB8CF1-CA4A-46D5-B635-901794A1CF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDB8CF1-CA4A-46D5-B635-901794A1CF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDB8CF1-CA4A-46D5-B635-901794A1CF67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

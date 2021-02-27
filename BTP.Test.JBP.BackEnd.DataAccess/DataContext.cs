@@ -22,6 +22,14 @@ namespace BTP.Test.JBP.BackEnd.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            //modelBuilder.Entity<Students>()
+            //   .HasOne(s => s.StudentAssignments);
+            //modelBuilder.Entity<Assignments>()
+            //    .HasOne(s => s.StudentAssignments);
+
+
+
             modelBuilder.Entity<Students>().HasData(
                 new Students() { ID=1, Name = "Jorge Bolaños Puga", BirthDate = Convert.ToDateTime("10/07/1995") },
                 new Students() { ID = 2, Name = "Pedro Antonio Ramirez Henandez", BirthDate = Convert.ToDateTime("10/07/1996") },

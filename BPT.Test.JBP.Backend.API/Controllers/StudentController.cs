@@ -5,6 +5,7 @@ using BTP.Test.JBP.BackEnd.DataAccess.Interfaces;
 using BTP.Test.JBP.BackEnd.Entities;
 using BTP.Test.JBP.BackEnd.Entities.DTO;
 using BTP.Test.JBP.BackEnd.Entities.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -29,6 +30,7 @@ namespace BPT.Test.JBP.Backend.API.Controllers
         // GET: StudentController
         [Route("[action]")]
         [HttpGet()]
+        [Authorize]
         public ResponseData Get(int id)
         {
             string idRequest = Guid.NewGuid().ToString();
@@ -47,7 +49,7 @@ namespace BPT.Test.JBP.Backend.API.Controllers
 
         }
 
-
+        [Authorize]
         [Route("[action]")]
         [HttpGet()]
         public ResponseData GetAll()
@@ -67,9 +69,10 @@ namespace BPT.Test.JBP.Backend.API.Controllers
             }
         }
 
+        [Authorize]
         [Route("[action]")]
         [HttpDelete()]
-        public ResponseData DeleteStudent(int id)
+        public ResponseData Delete(int id)
         {
             string idRequest = Guid.NewGuid().ToString();
             try
@@ -86,9 +89,10 @@ namespace BPT.Test.JBP.Backend.API.Controllers
             }
         }
 
+        [Authorize]
         [Route("[action]")]
         [HttpPost()]
-        public ResponseData InsertStudent(Students entity)
+        public ResponseData Insert(Students entity)
         {
             string idRequest = Guid.NewGuid().ToString();
             try
@@ -105,9 +109,10 @@ namespace BPT.Test.JBP.Backend.API.Controllers
             }
         }
 
+        [Authorize]
         [Route("[action]")]
         [HttpPut()]
-        public ResponseData UpdateStudent(Students entity)
+        public ResponseData Update(Students entity)
         {
             string idRequest = Guid.NewGuid().ToString();
             try

@@ -1,11 +1,7 @@
-using BTP.Test.JBP.BackEnd.DataAccess;
-using BTP.Test.JBP.BackEnd.DataAccess.Interfaces;
-using BTP.Test.JBP.BackEnd.Entities;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+ï»¿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -19,8 +15,10 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using BPT.Test.JBP.API.JWT.Data;
 
-namespace BPT.Test.JBP.Backend.API
+namespace BPT.Test.JBP.API.JWT
 {
     public class Startup
     {
@@ -39,11 +37,11 @@ namespace BPT.Test.JBP.Backend.API
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Exercise Example",
-                    Description = "A simple example Web Api CRUD",
+                    Title = "Example JWT",
+                    Description = "A simple example Web Api JWT",
                     Contact = new OpenApiContact
                     {
-                        Name = "Jorge Bolaños Puga",
+                        Name = "Jorge Bolaï¿½os Puga",
                         Email = "jorge.pug4@outlook.com",
                     }
                 });
@@ -76,23 +74,28 @@ namespace BPT.Test.JBP.Backend.API
             new List<string>()
           }
         });
-
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+               // c.IncludeXmlComments(xmlPath);
             });
             services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = Configuration["Jwt:Issuer"],
-                    ValidAudience = Configuration["Jwt:Issuer"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
-                };
-            });
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = Configuration["Jwt:Issuer"],
+            ValidAudience = Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+        };
+    });
+
+            services.AddDbContext<BPTTestJBPAPIJWTContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("BPTTestJBPAPIJWTContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -102,20 +105,19 @@ namespace BPT.Test.JBP.Backend.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseAuthentication();
-
-            app.UseRouting();
-            app.UseAuthorization();
-
             app.UseSwagger(c =>
             {
                 c.SerializeAsV2 = true;
             });
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("../swagger/v1/swagger.json", "My Web API CRUD V1");
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "My Web API JWT V1");
                 //c.RoutePrefix = "swagger/ui";
             });
+            app.UseAuthentication();
+            app.UseRouting();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

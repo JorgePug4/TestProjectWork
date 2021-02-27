@@ -54,7 +54,7 @@ namespace BTP.Test.JBP.BackEnd.DataAccess
 
         public T Update(T entity)
         {
-            var resp  =entities.Update(entity);
+            var resp = entities.Update(entity);
             if (resp.State == EntityState.Modified)
             {
                 context.SaveChanges();
@@ -62,5 +62,7 @@ namespace BTP.Test.JBP.BackEnd.DataAccess
             }
             return entity;
         }
+
+      
     }
 }
