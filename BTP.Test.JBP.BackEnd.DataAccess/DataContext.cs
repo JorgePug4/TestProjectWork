@@ -15,7 +15,7 @@ namespace BTP.Test.JBP.BackEnd.DataAccess
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer(@"server=DESKTOP-FLO6Q29\SQLEXPRESS;database=TESTENTITY;uid=Admin;password=123456789;");
+                options.UseSqlServer(@"server=DESKTOP-FLO6Q29\SQLEXPRESS;database=BTPJBP;uid=Admin;password=123456789;");
             }
         }
 
